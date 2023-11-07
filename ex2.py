@@ -6,7 +6,7 @@ from math import pi
 
 
 def cylinder(radius, height):
-    command = input('Напишите, что хотите получить: "Площадь боковой'
+    command = input('Напишите, что хотите получить: "Площадь боковой '
                     'поверхности" или "Полная площадь": ')
     match command:
         case "Площадь боковой поверхности":
@@ -20,5 +20,5 @@ def circle(radius):
 
 
 if __name__ == "__main__":
-    cylinder(float(input("Введите радиус:")), float(input("Введите высоту:")))
-    
+    print(cylinder(float(input("Введите радиус: ")),
+                   float(input("Введите высоту: "))))

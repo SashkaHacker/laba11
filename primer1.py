@@ -94,8 +94,8 @@ def main():
             # Добавить словарь в список.
             workers.append(worker)
         # Отсортировать список в случае необходимости.
-        if len(workers) > 1:
-            workers.sort(key=lambda item: item.get('name', ''))
+            if len(workers) > 1:
+                workers.sort(key=lambda item: item.get('name', ''))
         elif command == 'list':
             # Отобразить всех работников.
             display_workers(workers)

@@ -17,4 +17,4 @@ def negative():
 
 
 if __name__ == "__main__":
-    test(float(int(input())))
+    test(int(input()))
